@@ -7,8 +7,6 @@ sudo apt install chromium-browser -y
 
 sudo apt-get install unzip -y
 sudo apt-get install cmake -y
-sudo wget https://www.waveshare.net/w/upload/0/03/Waveshare35a.zip
-sudo unzip ./Waveshare35a.zip
 sudo cp waveshare35a.dtbo /boot/overlays/
 
 sudo sed -i 's/Enable DRM VC4 V3D driver/# Enable DRM VC4 V3D driver/g' /boot/firmware/config.txt
